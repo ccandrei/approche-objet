@@ -1,6 +1,12 @@
 package entites;
 
+/**
+ * Classe adresse postale
+ * @author c_and
+ *
+ */
 public class AdressePostale {
+	
 	// atribute class AdressePostale
 	public int numeroRue;
 	public String libelleRue;
@@ -8,7 +14,7 @@ public class AdressePostale {
 	public String ville;
 
 	// crearea unui constructor
-	public AdressePostale() { // constructor creat "par défault"
+	public AdressePostale() { // constructor creat "par dï¿½fault"
 
 	}
 
