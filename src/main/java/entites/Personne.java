@@ -10,7 +10,7 @@ public class Personne {
 	public Personne() { // constructor creat "par d�fault"
 
 	}
-
+	// ----exemplu 2 --- metoda constructor--
 	public Personne(String leNom, String lePrenom, AdressePostale adresse) { // 1er
 																				// constructeur
 		this.leNom = leNom;
