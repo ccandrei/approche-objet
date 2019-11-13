@@ -14,7 +14,7 @@ public class AdressePostale {
 	public String ville;
 
 	// crearea unui constructor
-	public AdressePostale() { // constructor creat "par d�fault"
+	public AdressePostale() { // constructor creat "par default"
 
 	}
 

@@ -12,13 +12,33 @@ public static void main(String[] args){
 	 ------- EXEMPLU1----------*/
 	AdressePostale b = new AdressePostale() ;
 	b.numeroRue = 85 ;
-	b.libelleRue = "Maurice B�jart";
+	b.libelleRue = "Maurice Bejart";
 	b.codePostale = 34080;
 	b.ville = "Montpellier";
 	
 	// ----exemplu 2 -----
-	AdressePostale adr1 = new AdressePostale(85, "Maurice B�jart", 34080, "Montpellier") ;
+	AdressePostale adr1 = new AdressePostale(85, "Maurice Bejart", 34080, "Montpellier") ;
 	Personne pers1 = new Personne("Craciunescu","Andrei",adr1) ;
+	
+	//TP 3.1
+	pers1.afficherIdentite();
+	
+	//TP3.2
+	pers1.changeNom("Duppont");
+	pers1.afficherIdentite();
+	
+	//TP3.3
+	pers1.changePrenom("Ion");
+	pers1.afficherIdentite();
+	
+	//TP3.4 modifier l'adresse
+	pers1.changeAdresse(b);
+	pers1.afficherIdentite();
+	
+	//TP3.5	méthode qui retourne le nom. nu es necesar pt. ca doar revi inapoi
+	//TP3.6	méthode qui retourne le prenom. nu es necesar pt. ca doar revi inapoi
+	//TP3.7 méthode qui retourne l’adresse. nu es necesar pt. ca doar revi inapoi
+	
 	
 	}
 
