@@ -16,7 +16,7 @@ public static void main(String[] args){
 	b.codePostale = 34080;
 	b.ville = "Montpellier";
 	
-	// ----exemplu 2 -----
+	// ----exemplu 2 --- metoda constructor--
 	AdressePostale adr1 = new AdressePostale(85, "Maurice Bejart", 34080, "Montpellier") ;
 	Personne pers1 = new Personne("Craciunescu","Andrei",adr1) ;
 	
@@ -38,6 +38,7 @@ public static void main(String[] args){
 	//TP3.5	méthode qui retourne le nom. nu es necesar pt. ca doar revi inapoi
 	//TP3.6	méthode qui retourne le prenom. nu es necesar pt. ca doar revi inapoi
 	//TP3.7 méthode qui retourne l’adresse. nu es necesar pt. ca doar revi inapoi
+	
 	
 	
 	
