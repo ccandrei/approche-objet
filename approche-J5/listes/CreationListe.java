@@ -7,18 +7,18 @@ public class CreationListe {
 	public static void main(String[] args) {
 		/* Exercice 1
 		 * 
-		 * •Apprenez à créer une liste
+		 * ï¿½Apprenez ï¿½ crï¿½er une liste
 		 * 
-		 * •Creezun nouveau package listes.
-		 * •Creez une classe apelée CreationListe
-		 * •Dans la méthode main,creez une ArrayList d’entiers et 
-		    stockez y tous les nombres de 1 à 100
-		 * •Affichez la taille de la liste en utilisant la méthode de 
+		 * ï¿½Creezun nouveau package listes.
+		 * ï¿½Creez une classe apelï¿½e CreationListe
+		 * ï¿½Dans la mï¿½thode main,creez une ArrayList dï¿½entiers et 
+		    stockez y tous les nombres de 1 ï¿½ 100
+		 * ï¿½Affichez la taille de la liste en utilisant la mï¿½thode de 
 		    la classe ArrayList fournissant cette information.*/
 		   
 		
-		/*•Dans la méthode main,creez une ArrayList d’entiers et 
-		    stockez y tous les nombres de 1 à 100*/
+		/*ï¿½Dans la mï¿½thode main,creez une ArrayList dï¿½entiers et 
+		    stockez y tous les nombres de 1 ï¿½ 100*/
 		ArrayList<Integer> liste = new ArrayList<>();
 	   
 		for (int x = 0; x < 100 ; x++ ){
@@ -28,7 +28,7 @@ public class CreationListe {
 			System.out.println(x);
 		}
 		
-		/*Affichez la taille de la liste en utilisant la méthode de 
+		/*Affichez la taille de la liste en utilisant la mï¿½thode de 
 	    la classe ArrayList fournissant cette information.*/
 		
 		int taille = liste.size();
